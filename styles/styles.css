@@ -1,0 +1,16 @@
+.header{
+    padding: 25px;
+    font-size: 20px;
+}
+.bg-body-primary{
+    background-color: #0EABCE;
+}
+body{
+    background-color: #B8E8FD;
+}
+weather-container{
+    background-color: white;
+}
+.card{
+    padding: 20px;
+}
