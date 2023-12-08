@@ -1,46 +1,135 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/styles.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-primary">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Weather</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Today</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./fiveday.html">5 Day</a>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="header">
+    <p>Todays Forecast for city,state here</p>
+    <p id="timeHere" class="time">1:54pm</p>
+  </div>
   <div class="container-fluid">
-    <a class="navbar-brand" href="./index.html">Weather</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../index.html">Today</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./fiveday.html">5 Day</a>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+    <div class="card" style="height: 479px;">
+      <div class="card-body">
+        <div class="row justify-content-between">
+          <div class="col-2">
+            <p class="mon d-flex justify-content-center">mon</p>
+            <div class="d-flex justify-content-between">
+              <p>Low/High</p>
+              <p>45/56</p>
+            </div>
+            <hr class="space">
+            <p>chances of rain 56%</p>
+            <hr>
+            <p>cloudiness 22%</p>
+            <hr>
+            <p>wind speed 4mph</p>
+            <hr>
+            <p>sunrise 7am</p>
+            <hr>
+            <p>sunset 4:40pm</p>
+          </div>
+          <div class="col-2">
+            <p class="tue d-flex justify-content-center">tue</p>
+            <div class="d-flex justify-content-between">
+              <p>Low/High</p>
+              <p>45/56</p>
+            </div>
+            <hr>
+            <p>chances of rain 56%</p>
+            <hr>
+            <p>cloudiness 22%</p>
+            <hr>
+            <p>wind speed 4mph</p>
+            <hr>
+            <p>sunrise 7am</p>
+            <hr>
+            <p>sunset 4:40pm</p>
+          </div>
+          <div class="col-2">
+            <p class="wed">wed</p>
+            <div class="d-flex justify-content-between">
+              <p>Low/High</p>
+              <p>45/56</p>
+            </div>
+            <hr>
+            <p>chances of rain 56%</p>
+            <hr>
+            <p>cloudiness 22%</p>
+            <hr>
+            <p>wind speed 4mph</p>
+            <hr>
+            <p>sunrise 7am</p>
+            <hr>
+            <p>sunset 4:40pm</p>
+          </div>
+          <div class="col-2">
+            <p class="thu">thu</p>
+            <div class="d-flex justify-content-between">
+              <p>Low/High</p>
+              <p>45/56</p>
+            </div>
+            <hr>
+            <p>chances of rain 56%</p>
+            <hr>
+            <p>cloudiness 22%</p>
+            <hr>
+            <p>wind speed 4mph</p>
+            <hr>
+            <p>sunrise 7am</p>
+            <hr>
+            <p>sunset 4:40pm</p>
+          </div>
+          <div class="col-2">
+            <p class="fri">fri</p>
+            <div class="d-flex justify-content-between">
+              <p>Low/High</p>
+              <p>45/56</p>
+            </div>
+            <hr>
+            <p>chances of rain 56%</p>
+            <hr>
+            <p>cloudiness 22%</p>
+            <hr>
+            <p>wind speed 4mph</p>
+            <hr>
+            <p>sunrise 7am</p>
+            <hr>
+            <p>sunset 4:40pm</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</nav>
-<div class="header">
-  <p>Todays Forecast for city,state here</p>
-  <p id="timeHere">time here</p>
-</div>
-<div class="container-fluid">
-  <div class="card" style="height: 479px;">
-    <div class="card-body">
-      <h6 class="card-subtitle mb-2 text-body-secondary">Feels Like</h6>
-      <p id="fiveDayHere"></p>
-    </div>
-  </div>
-</div>
 
 
 
@@ -56,8 +145,10 @@
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="../script/5daywether.js"></script>
+</body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="../script/5daywether.js"></script>
-  </body>
 </html>

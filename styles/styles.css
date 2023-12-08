@@ -17,3 +17,32 @@ weather-container{
 .card-text{
     font-size: 45px;
 }
+.currentTemp{
+    font-size: 45px;
+}
+.time{
+    font-size: 25px;
+}
+.mon{
+    font-weight: bold;
+    font-size: 25px;
+}
+.tue{
+    font-weight: bold;
+    font-size: 25px;
+}
+.wed{
+    font-weight: bold;
+    font-size: 25px;
+}
+.thu{
+font-weight: bold;
+font-size: 25px;
+}
+.fri{
+    font-weight: bold;
+    font-size: 25px;
+}
+.space{
+    padding: 1px;
+}
