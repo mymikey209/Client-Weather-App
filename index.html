@@ -27,7 +27,7 @@
             <a class="nav-link" href="./pages/fiveday.html">5 Day</a>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control me-2" type="search" placeholder="Search city or zip code" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
@@ -42,38 +42,37 @@
       <div class="card-body">
         <h6 class="card-subtitle mb-2 text-body-secondary">Feels Like</h6>
         <p id="currentTempHere" class="currentTemp">55°</p>
-        <p id="todayHere">today Here</p>
         <div class="row align-left">
           <div class="col-6">
             <div class="d-flex justify-content-between">
               <p>Low/High</p>
-              <p>45/56</p>
+              <p id="todayMin">45</p>
             </div>
             <hr>
             <div class="d-flex justify-content-between">
               <p>Chance of rain</p>
-              <p>45%</p>
+              <p id="chanceHere">45%</p>
             </div>
             <hr>
             <div class="d-flex justify-content-between">
               <p>cloudiness</p>
-              <p>23%</p>
+              <p id="cloudinessHere">23%</p>
             </div>
           </div>
           <div class="col-6">
             <div class="d-flex justify-content-between">
               <p>Wind speed</p>
-              <p>3mph</p>
+              <p id="windSpeedHere">3mph</p>
             </div>
             <hr>
             <div class="d-flex justify-content-between">
               <p>sunrise</p>
-              <p>7am</p>
+              <p id="sunriseHere">7am</p>
             </div>
             <hr>
             <div class="d-flex justify-content-between">
               <p>Sunset</p>
-              <p>4:40pm</p>
+              <p id="sunsetHere">4:40pm</p>
             </div>
           </div>
         </div>
