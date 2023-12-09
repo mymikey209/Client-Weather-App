@@ -28,7 +28,7 @@ async function getTodayWeather() {
     sunset.innerText = new Date(data.sys.sunset).getHours() + '' + "pm"
     console.log(data.sys.sunset);
     console.log(new Date(1702082753).getHours());
-    feelslike.innerText = data.main.feels_like 
+    feelslike.innerText = data.main.feels_like + '°F'
     
 }
 getTodayWeather();
